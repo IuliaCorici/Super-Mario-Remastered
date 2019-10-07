@@ -17,7 +17,7 @@ to play the game. You control the player using the `left` and `right` arrow keys
 │   │   level.csv (the level that will be loaded in the game)
 │   │
 │   └───img (a folder with the game assets)
-│
+
 
 ### Make your level
 You can easily make your own level by looking at `level.csv`, which shows a 2D grid representing the level structure:
@@ -26,11 +26,11 @@ You can easily make your own level by looking at `level.csv`, which shows a 2D g
 - `1` stands for the ground
 - `2` stands for the goal position, reaching it means you win the level
 - `3` stands for a walker enemy (an enemy that walks to the left once it sees the player)
-- '4' stands for the cloud similar to the ground,-
-- '5' stands for the lava,
-- '6' stands for the meatballs (fall out of the sky and kill the player),
-- '7' stands for the goombas (similar to the enemy),
-- '9' stands for the player
+- `4` stands for the cloud similar to the ground,-
+- `5` stands for the lava,
+- `6` stands for the meatballs (fall out of the sky and kill the player),
+- `7` stands for the goombas (similar to the enemy),
+- `9` stands for the player
 
 The player always starts at position `(2,8)`, so that spot needs to be free.
 
